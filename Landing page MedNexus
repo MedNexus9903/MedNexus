@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing Digitale per Chirurghi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #007bff;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #333 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+        header a:hover {
+            color: #cccccc;
+            font-weight: bold;
+        }
+        #showcase {
+            min-height: 400px;
+            background: url('chirurgia.jpg') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        .button {
+            display: inline-block;
+            color: #fff;
+            background: #333;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+        #main {
+            padding: 20px 0;
+        }
+        #main .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #main .box {
+            flex: 1;
+            padding: 20px;
+        }
+        #main .box img {
+            max-width: 100%;
+        }
+        #main .box p {
+            line-height: 1.5em;
+        }
+        #main .box h3 {
+            margin-bottom: 10px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 30px;
+        }
+        footer p {
+            margin: 0;
+        }
+        .cta {
+            background: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 20px;
+        }
+        .cta h2 {
+            margin: 0;
+        }
+        .cta a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            border: 1px #fff solid;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Marketing Digitale</span> per Chirurghi</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="#">Home</a></li>
+                    <li><a href="#">Servizi</a></li>
+                    <li><a href="#">Testimonianze</a></li>
+                    <li><a href="#">Contatti</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Cresci la Tua Pratica Chirurgica con il Nostro Marketing Digitale Mirato</h1>
+            <p>Siti Web su Misura e Campagne Pubblicitarie Efficaci per Chirurghi</p>
+            <a href="#contact" class="button">Prenota una Consulenza Gratuita</a>
+        </div>
+    </section>
+
+    <section id="main">
+        <div class="container">
+            <div class="box">
+                <h3>Perché il Marketing Digitale è Cruciale per i Chirurghi?</h3>
+                <p>Nel mondo medico competitivo di oggi, avere una forte presenza online non è solo un vantaggio, è una necessità. I pazienti cercano informazioni e servizi online più che mai. Noi possiamo aiutarti a emergere, attrarre nuovi pazienti e fidelizzare quelli esistenti.</p>
+                <ul>
+                    <li>Visibilità Online Ottimale</li>
+                    <li>Attrazione di Nuovi Pazienti</li>
+                    <li>Gestione della Reputazione</li>
+                    <li>Miglioramento della Comunicazione con i Pazienti</li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Servizi Su Misura per Chirurghi</h3>
+                <p>Offriamo soluzioni complete e personalizzate per soddisfare le tue esigenze specifiche.</p>
+                <h4>Costruzione di Siti Web su Misura</h4>
+                <p>Creiamo siti web professionali, ottimizzati per SEO e mobile-friendly che riflettono la tua competenza e attirano pazienti.</p>
+                <h4>Campagne di Advertising Mirate</h4>
+                <p>Utilizziamo Google Ads, Facebook Ads e LinkedIn Ads per raggiungere il tuo pubblico ideale con messaggi efficaci.</p>
+                <h4>Gestione della Reputazione Online</h4>
+                <p>Monitoriamo e miglioriamo la tua reputazione online, gestendo recensioni e feedback.</p>
+                <h4>Content Marketing Educativo</h4>
+                <p>Creiamo contenuti informativi e di valore che posizionano te come un leader di pensiero nel tuo campo.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Pronto a Far Crescere la Tua Pratica?</h2>
+            <a href="#contact" class="button">Prenota Ora</a>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h3>Cosa Dicono i Nostri Clienti</h3>
+            <p>"Grazie al nuovo sito web creato dall'agenzia, il numero dei miei pazienti è aumentato del 30% in sei mesi." - Dr. Rossi</p>
+            <p>"Le campagne pubblicitarie mirate hanno portato un notevole incremento delle richieste di consultazioni." - Dr.ssa Bianchi</p>
+            <p>"La gestione della mia reputazione online ha migliorato la fiducia dei pazienti e la mia visibilità." - Dr. Verdi</p>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Perché Scegliere Noi?</h2>
+            <ul>
+                <li>Esperienza nel settore medico</li>
+                <li>Soluzioni personalizzate</li>
+                <li>Risultati comprovati</li>
+                <li>Supporto continuo</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Marketing Digitale per Chirurghi | Tutti i diritti riservati</p>
+            <p>Indirizzo fisico: Via delle Cliniche, 123, Roma, Italia</p>
+            <p>Email: info@marketingchirurghi.it | Telefono: +39 06 1234567</p>
+            <p><a href="#">Privacy Policy</a> | <a href="#">Termini di Servizio</a></p>
+        </div>
+    </footer>
+</body>
+</html>
